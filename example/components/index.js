@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+import EsriExample from './esri'
 import SimpleExample from './simple'
 import EventsExample from './events'
 import BoundsExample from './bounds'
@@ -14,6 +15,9 @@ import DraggableExample from './draggable-marker'
 
 const examples = (
   <div>
+    <h1>React-Leaflet examples</h1>
+    <h2>Esri Basemap</h2>
+    <EsriExample />
     <h1>React-Leaflet examples</h1>
     <h2>Popup with Marker</h2>
     <SimpleExample />
